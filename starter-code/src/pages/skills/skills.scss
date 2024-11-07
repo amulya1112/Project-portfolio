@@ -1,0 +1,61 @@
+h1.heading {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  p.heading.p__color {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  .skills__box {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #191919;
+    padding: 55px;
+    transition: .4s ease;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .skills__box:hover {
+    transform: translateY(5px);
+    background-image: linear-gradient(90deg, #a54404, #4e270e);
+  }
+  
+  .skills__box:hover .icon {
+    color: #fff;
+  }
+  
+  .skills__box:hover p.service__text .p__color {
+          color: #fff !important;
+  }
+  
+  .icon {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: inline-flex;
+    color: #a54302;
+  }
+  
+  p.skills__text.p__color {
+    margin-bottom: 0;
+  }
+  
+  h1.skills__text {
+    font-size: 19px;
+    font-family: Poppins, sans-serif;
+    padding: 10px 0px;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+      .skills__box {
+        padding: 32px;
+      }
+  }
+  
